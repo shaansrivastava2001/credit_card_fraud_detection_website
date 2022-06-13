@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}
+  Home
+{% endblock title %}
+
+{% block body %}
+  <div class="container-fluid banner">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 info">
+        <h1 class="text-center mb-2">You passed your credit limit!!</h1>
+        <h2 class="text-center mb-2 text-light">Please enter a valid amount for transaction</h2>
+        <a href="/login" class="btn btn-md text-center">TRY AGAIN</a>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
